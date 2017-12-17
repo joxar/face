@@ -14,4 +14,4 @@ outputs:
 - name: app-face
 
 run:
-  path: gmq3@jpp4hifjkremkfgjmfperogifjqwepfrqfci3hmpoj
+  path: ./ci/build.sh
