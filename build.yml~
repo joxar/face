@@ -8,5 +8,5 @@ inputs:
 - name: src-face
 
 run:
-  path: ./face/build.sh
+  path: ./src-face/build.sh
 
