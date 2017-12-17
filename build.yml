@@ -8,5 +8,9 @@ inputs:
 - name: src-face
 
 run:
-  path: ./build.sh
+  path: chmod
+  dir: ["777", "build.sh"]
+
+run:
+  path: build.sh
   dir: src-face
