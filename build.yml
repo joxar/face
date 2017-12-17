@@ -6,8 +6,9 @@ image_resource:
 inputs:
 - name: src-face
 run:
-  path: sh
+  path: bash
   args:
   - -exc
   - |
-    echo
+    chmod 777 build.sh
+    ./buid.sh
