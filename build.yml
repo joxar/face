@@ -14,4 +14,4 @@ outputs:
 - name: app-face
 
 run:
-  path: ./face/ci/build.sh
+  path: 
