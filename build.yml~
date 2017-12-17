@@ -8,4 +8,4 @@ inputs:
 - name: src-face
 
 run:
-  path: src-face/build.sh
+  path: ls
