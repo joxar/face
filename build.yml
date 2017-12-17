@@ -13,4 +13,4 @@ outputs:
 - name: app-face
 
 run:
-  path: ls
+  path: ./build.sh
