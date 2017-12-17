@@ -6,4 +6,4 @@ image_resource:
 inputs:
 - name: src-face
 run:
-  path: /bin/ls
+  path: ./baaa
