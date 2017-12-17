@@ -1,0 +1,4 @@
+name: sandbox
+memory: 128M
+random-route: true
+path: .
