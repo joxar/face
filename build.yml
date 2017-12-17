@@ -7,10 +7,9 @@ image_resource:
 inputs:
 - name: src-face
 
-#run:
-#  path: chmod
-#  dir: ["777", "build.sh"]
+run:
+  path: chmod
+  dir: ["777", "build.sh"]
 
-#run:
-#  path: build.sh
-#  dir: src-face
+  path: build.sh
+  dir: src-face
