@@ -4,6 +4,6 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 inputs:
-- name: face
+- name: src-face
 run:
   path: /bin/ls

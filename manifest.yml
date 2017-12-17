@@ -1,4 +1,4 @@
-name: face
+name: src-face
 memory: 128M
 random-route: true
 path: .
