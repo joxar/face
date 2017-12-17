@@ -8,4 +8,4 @@ inputs:
 - name: src-face
 
 run:
-  path: ls
+  path: /bin/ls
