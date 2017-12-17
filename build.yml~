@@ -3,8 +3,10 @@ platform: linux
 image_resource:
   type: docker-image
   source: {repository: busybox}
+
 inputs:
-- name: src-face
+- name: face
 
 run:
-  path: ./face/build.sh
+  path: ./face/test.sh
+

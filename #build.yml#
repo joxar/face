@@ -8,5 +8,5 @@ inputs:
 - name: face
 
 run:
-  path: ./face/build.sh
+  path: ./face/test.sbuildnh
 
