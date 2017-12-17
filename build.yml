@@ -6,3 +6,12 @@ image_resource:
 
   type: docker-image
   source: {repository: busybox}
+
+inputs:
+- name: src-face
+
+outputs:
+- name: app-face
+
+run:
+  file: ./build.sh
