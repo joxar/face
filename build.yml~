@@ -8,5 +8,5 @@ inputs:
 - name: src-face
 
 run:
-  path: echo
+  path: sh
   dir: ["HellO"]
