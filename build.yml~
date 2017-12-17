@@ -8,8 +8,5 @@ inputs:
 - name: src-face
 
 run:
-  path: chmod
-  dir: ["777", "build.sh"]
-
-  path: build.sh
-  dir: src-face
+  path: echo
+  dir: ["HellO"]
