@@ -27,7 +27,7 @@
 <body>
   <div id="header"></div>
   <div id="main">
-    <h2>R2-D2 Monitor</h2>
+    <h2>Live Streaming</h2>
     <img id="img">
   </div>
   <div id="footer"></div>
