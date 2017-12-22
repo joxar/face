@@ -11,4 +11,4 @@ inputs:
 - name: src-face
 
 run:
-  path: src-face/build
+  path: ./src-face/build
