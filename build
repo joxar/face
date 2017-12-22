@@ -4,5 +4,6 @@ set -e -x
 
 export FACE_HOME=`pwd`
 echo "===== build.sh ====="
+python opencv-face-camera.py
 
 exit 0
