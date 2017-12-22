@@ -1,0 +1,4 @@
+# face
+
+# prepare
+export PYTHONPATH=/usr//local/Cellar/opencv@2/2.4.13.4/include/opencv:$PYTHONPATH

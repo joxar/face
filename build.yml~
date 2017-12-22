@@ -2,11 +2,16 @@ platform: linux
 
 image_resource:
   type: docker-image
+  source: {repository: ubuntu}
+
+  type: docker-image
   source: {repository: busybox}
 
 inputs:
 - name: src-face
 
+outputs:
+- name: app-face
+
 run:
-  path: sh
-  dir: ["HellO"]
+  path: ./face/ci/build.sh
