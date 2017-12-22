@@ -4,7 +4,7 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
   type: docker-image
-  source: {repository: opencv2}
+  source: {repository: ibotdotout/python-opencv}
   type: docker-image
   source: {repository: python}
 
