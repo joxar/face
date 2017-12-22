@@ -5,6 +5,7 @@ set -e -x
 cd src-face
 export FACE_HOME=`pwd`
 echo "===== build.sh ====="
+yum install -y opencv
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
 python opencv-face-camera.py
 
