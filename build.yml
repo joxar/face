@@ -10,8 +10,5 @@ image_resource:
 inputs:
 - name: src-face
 
-outputs:
-- name: app-face
-
 run:
-  path: ./face/build.sh
+  path: ./build.sh
