@@ -9,6 +9,7 @@ yum install -y opencv
 rpm -ql opencv
 rpm -ql python
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
+export PYTHONPATH="/usr/share/doc/opencv-2.4.5:$PYTHONPATH"
 python opencv-face-camera.py
 
 exit 0
