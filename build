@@ -7,6 +7,7 @@ export FACE_HOME=`pwd`
 echo "===== build.sh ====="
 yum install -y opencv
 rpm -ql opencv
+rpm -ql python
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
 python opencv-face-camera.py
 
