@@ -2,8 +2,11 @@
 
 set -e -x
 
+cd src-face
 export FACE_HOME=`pwd`
 echo "===== build.sh ====="
-python src-face/opencv-face-camera.py
+sudo apt-get install libopencv-dev python-opencv
+bash install-opencv.sh
+python opencv-face-camera.py
 
 exit 0
