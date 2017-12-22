@@ -8,6 +8,10 @@ image_resource:
   type: docker-image
   source: {repository: python}
 
+image_resource:
+  type: docker-image
+  source: {repository: binded/python-opencv}
+
 inputs:
 - name: src-face
 
