@@ -1,6 +1,7 @@
 import cv2
 from datetime import datetime
 from time import sleep
+import voice
 
 # file for recognizing face
 # on Mac OS
@@ -33,6 +34,7 @@ try:
             continue # no faces
         # mark on the area recognized
         for (x, y, w, h) in faces:
+            voice.voiceFunc("Hello")
             color = (255, 0, 0)
             cv2.rectangle(img, (x,y), (x+w, y+h), color, thickness=8)
         # save image
