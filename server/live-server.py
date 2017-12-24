@@ -4,7 +4,11 @@ import cv2
 # open camera device
 camera = cv2.VideoCapture(0)
 
-CASCADE_DIR = "/usr/local/share/OpenCV/haarcascades/"
+# on Mac OS
+#CASCADE_DIR = "/usr/local/share/OpenCV/haarcascades/"
+# on raspberryPi
+CASCADE_DIR = "/usr/share/opencv/haarcascades/"
+
 CASCADE_FILE = CASCADE_DIR + "haarcascade_frontalface_alt.xml"
 # don't recognize too small face
 MIN_SIZE = (150, 150)
