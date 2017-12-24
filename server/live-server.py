@@ -21,7 +21,7 @@ cascade = cv2.CascadeClassifier(CASCADE_FILE)
 # mp3 directory
 MP3_DIR = "mp3"
 # chat interval
-GAP = 70
+GAP = 50
 # for getting interval of chat
 count = 100
 prev_count = 0
