@@ -33,8 +33,8 @@ try:
         if len(faces) == 0:
             continue # no faces
         # mark on the area recognized
+        voice.voiceFunc("Hello")
         for (x, y, w, h) in faces:
-            voice.voiceFunc("Hello")
             color = (255, 0, 0)
             cv2.rectangle(img, (x,y), (x+w, y+h), color, thickness=8)
         # save image

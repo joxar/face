@@ -8,9 +8,9 @@ import random
 camera = cv2.VideoCapture(0)
 
 # on Mac OS
-CASCADE_DIR = "/usr/local/share/OpenCV/haarcascades/"
+#CASCADE_DIR = "/usr/local/share/OpenCV/haarcascades/"
 # on raspberryPi
-#CASCADE_DIR = "/usr/share/opencv/haarcascades/"
+CASCADE_DIR = "/usr/share/opencv/haarcascades/"
 
 CASCADE_FILE = CASCADE_DIR + "haarcascade_frontalface_alt.xml"
 # don't recognize too small face
